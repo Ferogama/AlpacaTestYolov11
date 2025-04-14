@@ -1,0 +1,8 @@
+# config.yaml для обнаружения дронов
+path: C://Users/fero/Desktop/segmentatui/data  # основной путь к датасету
+train: images/train  # обучающие изображения
+val: images/train    # валидационные изображения
+
+# Классы (у вас 1 класс - drone/fierce)
+names:
+  0: alpaca  # или 'fierce', если вы используете это название
